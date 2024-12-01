@@ -27,7 +27,7 @@ function timeAgo(timestamp) {
 
 const Card = ({ description, author, title, score, URL, time }) => {
     return (
-        <div className="w-full h-96 mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+        <div className="w-full h-96 mx-auto bg-[#f7f7f7] shadow-lg rounded-lg overflow-hidden">
             <div className="flex flex-col justify-between h-full pb-4">
                 <div className="flex flex-col">
                     <div className="flex items-center p-4 space-x-3">

@@ -25,8 +25,8 @@ function App() {
 
   return (
     <div className="w-screen h-screen md:flex items-center justify-center">
-      <div className="w-full h-full md:w-[1280px] md:h-[720px] rounded-md shadow-md border border-zinc-300 p-4 overflow-x-hidden overflow-y-scroll">
-        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="w-full h-full md:w-[1280px] md:h-[720px] rounded-md shadow-md border-t border-zinc-300 p-4 overflow-x-hidden overflow-y-scroll">
+        <div className="w-full h-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {data.map((val, id) => (
             <Card
               key={id}
